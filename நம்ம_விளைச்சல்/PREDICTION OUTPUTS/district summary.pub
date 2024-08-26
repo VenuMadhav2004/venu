@@ -1,0 +1,54 @@
+Enter the state name: tamil nadu
+Enter the district name: thiruvallur
+Data available for State: Tamil Nadu and District: Thiruvallur.
+
+Summary Statistics:
+       Cost of Cultivation (`/Hectare) A2+FL  \
+count                            3766.000000   
+mean                            44421.460000   
+std                             21916.509979   
+min                             22507.860000   
+25%                             22507.860000   
+50%                             44421.460000   
+75%                             66335.060000   
+max                             66335.060000   
+
+       Cost of Cultivation (`/Hectare) C2  Cost of Production (`/Quintal) C2  \
+count                         3766.000000                        3766.000000   
+mean                         59709.465000                        1221.895000   
+std                          29319.697943                        1136.255867   
+min                          30393.660000                          85.790000   
+25%                          30393.660000                          85.790000   
+50%                          59709.465000                        1221.895000   
+75%                          89025.270000                        2358.000000   
+max                          89025.270000                        2358.000000   
+
+             Yield           Area     Rainfall  
+count  3766.000000    3766.000000  3766.000000  
+mean    513.715000   18986.502921  1106.736431  
+std     501.801627   33395.664515   847.981172  
+min      11.980000       1.000000     0.000000  
+25%      11.980000     473.000000   540.525000  
+50%     513.715000    3209.000000   951.600000  
+75%    1015.450000   11657.000000  1509.300000  
+max    1015.450000  166737.000000  3565.300000  
+
+
+
+
+
+
+
+PREDICTION MODEL ANALYSIS:
+
+Recommended Crop:
+Crop: Groundnut
+Predicted Accuracy: 0.82
+
+Cost Analysis for Recommended Crop:
+Minimum Cost of Production: 85.79
+Maximum Cost of Production: 2358.00
+
+Profit Margin Statistics for Recommended Crop:
+Average Profit Margin: 5.92
+Standard Deviation of Profit Margin: 5.92

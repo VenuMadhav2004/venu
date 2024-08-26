@@ -1,0 +1,123 @@
+Enter the state name: tamil nadu
+Enter the district name: thiruvallur
+Data available for State: Tamil Nadu and District: Thiruvallur.
+
+Summary Statistics:
+        Cost of Cultivation (`/Hectare) A2+FL  \
+count                             3766.000000   
+unique                                    NaN   
+top                                       NaN   
+freq                                      NaN   
+mean                             44421.460000   
+std                              21916.509979   
+min                              22507.860000   
+25%                              22507.860000   
+50%                              44421.460000   
+75%                              66335.060000   
+max                              66335.060000   
+
+        Cost of Cultivation (`/Hectare) C2  Cost of Production (`/Quintal) C2  \
+count                          3766.000000                        3766.000000   
+unique                                 NaN                                NaN   
+top                                    NaN                                NaN   
+freq                                   NaN                                NaN   
+mean                          59709.465000                        1221.895000   
+std                           29319.697943                        1136.255867   
+min                           30393.660000                          85.790000   
+25%                           30393.660000                          85.790000   
+50%                           59709.465000                        1221.895000   
+75%                           89025.270000                        2358.000000   
+max                           89025.270000                        2358.000000   
+
+              Yield           Area     Rainfall Crop_Ash Gourd Crop_Bajra  \
+count   3766.000000    3766.000000  3766.000000           3766       3766   
+unique          NaN            NaN          NaN              2          2   
+top             NaN            NaN          NaN          False      False   
+freq            NaN            NaN          NaN           3764       3734   
+mean     513.715000   18986.502921  1106.736431            NaN        NaN   
+std      501.801627   33395.664515   847.981172            NaN        NaN   
+min       11.980000       1.000000     0.000000            NaN        NaN   
+25%       11.980000     473.000000   540.525000            NaN        NaN   
+50%      513.715000    3209.000000   951.600000            NaN        NaN   
+75%     1015.450000   11657.000000  1509.300000            NaN        NaN   
+max     1015.450000  166737.000000  3565.300000            NaN        NaN   
+
+       Crop_Banana Crop_Bhindi  ... Fertilizer_Usage_High  \
+count         3766        3766  ...                  3766   
+unique           2           2  ...                     2   
+top          False       False  ...                 False   
+freq          3232        3762  ...                  2606   
+mean           NaN         NaN  ...                   NaN   
+std            NaN         NaN  ...                   NaN   
+min            NaN         NaN  ...                   NaN   
+25%            NaN         NaN  ...                   NaN   
+50%            NaN         NaN  ...                   NaN   
+75%            NaN         NaN  ...                   NaN   
+max            NaN         NaN  ...                   NaN   
+
+       Fertilizer_Usage_Low Fertilizer_Usage_Medium Pesticide_Usage_high  \
+count                  3766                    3766                 3766   
+unique                    2                       2                    2   
+top                   False                   False                False   
+freq                   2636                    2892                 2424   
+mean                    NaN                     NaN                  NaN   
+std                     NaN                     NaN                  NaN   
+min                     NaN                     NaN                  NaN   
+25%                     NaN                     NaN                  NaN   
+50%                     NaN                     NaN                  NaN   
+75%                     NaN                     NaN                  NaN   
+max                     NaN                     NaN                  NaN   
+
+       Pesticide_Usage_low pH_Average pH_High pH_Low  State_Name District_Name  
+count                 3766       3766    3766   3766        3766          3766  
+unique                   2          2       2      2           1             1  
+top                  False      False   False  False  tamil nadu   thiruvallur  
+freq                  1944       2600    2648   2886        3766          3766  
+mean                   NaN        NaN     NaN    NaN         NaN           NaN  
+std                    NaN        NaN     NaN    NaN         NaN           NaN  
+min                    NaN        NaN     NaN    NaN         NaN           NaN  
+25%                    NaN        NaN     NaN    NaN         NaN           NaN  
+50%                    NaN        NaN     NaN    NaN         NaN           NaN  
+75%                    NaN        NaN     NaN    NaN         NaN           NaN  
+max                    NaN        NaN     NaN    NaN         NaN           NaN  
+
+[11 rows x 81 columns]
+
+Random Forest Model Mean Squared Error: 0.00
+
+Predicted Yield based on input features:
+         State_Name District_Name  Predicted_Yield
+1421930  tamil nadu   thiruvallur            11.98
+1421931  tamil nadu   thiruvallur            11.98
+1421932  tamil nadu   thiruvallur            11.98
+1421933  tamil nadu   thiruvallur            11.98
+1421934  tamil nadu   thiruvallur            11.98
+Target variable 'Crop' is missing in the data.
+Available columns: Index(['Cost of Cultivation (`/Hectare) A2+FL',
+       'Cost of Cultivation (`/Hectare) C2',
+       'Cost of Production (`/Quintal) C2', 'Yield', 'Area', 'Rainfall',
+       'Crop_Ash Gourd', 'Crop_Bajra', 'Crop_Banana', 'Crop_Bhindi',
+       'Crop_Bitter Gourd', 'Crop_Bottle Gourd', 'Crop_Brinjal',
+       'Crop_Cashewnut', 'Crop_Castor seed', 'Crop_Citrus Fruit',
+       'Crop_Coconut ', 'Crop_Coriander', 'Crop_Cotton(lint)', 'Crop_Cucumber',
+       'Crop_Drum Stick', 'Crop_Dry chillies', 'Crop_Garlic', 'Crop_Gram',
+       'Crop_Groundnut', 'Crop_Guar seed', 'Crop_Horse-gram',
+       'Crop_Jack Fruit', 'Crop_Jowar', 'Crop_Korra', 'Crop_Maize',
+       'Crop_Mango', 'Crop_Moong(Green Gram)', 'Crop_Onion',
+       'Crop_Other Citrus Fruit', 'Crop_Other Fresh Fruits',
+       'Crop_Other Kharif pulses', 'Crop_Other Vegetables', 'Crop_Papaya',
+       'Crop_Pome Fruit', 'Crop_Pome Granet', 'Crop_Potato',
+       'Crop_Pulses total', 'Crop_Pump Kin', 'Crop_Ragi', 'Crop_Redish',
+       'Crop_Ribed Guard', 'Crop_Rice', 'Crop_Samai', 'Crop_Sannhamp',
+       'Crop_Sesamum', 'Crop_Small millets', 'Crop_Snak Guard',
+       'Crop_Soyabean', 'Crop_Sugarcane', 'Crop_Sunflower',
+       'Crop_Sweet potato', 'Crop_Tapioca', 'Crop_Tobacco', 'Crop_Tomato',
+       'Crop_Total foodgrain', 'Crop_Turmeric', 'Crop_Urad',
+       'Crop_Water Melon', 'Crop_Yam', 'Season_Rabi       ',
+       'Season_Whole Year ', 'Soil_Type_Alluvial Soil', 'Soil_Type_Black Soil',
+       'Soil_Type_Laterile Soil', 'Soil_Type_Red/Yellow Soil',
+       'Fertilizer_Usage_High', 'Fertilizer_Usage_Low',
+       'Fertilizer_Usage_Medium', 'Pesticide_Usage_high',
+       'Pesticide_Usage_low', 'pH_Average', 'pH_High', 'pH_Low', 'State_Name',
+       'District_Name', 'Predicted_Yield'],
+      dtype='object')
